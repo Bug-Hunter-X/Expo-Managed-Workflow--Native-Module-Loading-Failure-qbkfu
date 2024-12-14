@@ -1,0 +1,1 @@
+This bug occurs when using the Expo managed workflow with a project that uses a library that requires native modules.  The error message often isn't very helpful, but the underlying problem is that the Expo Go app (or the standalone APK/IPA) cannot find or load the required native module. This can lead to runtime crashes or silent failures.
